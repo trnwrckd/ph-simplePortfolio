@@ -8,17 +8,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
-    <title>Simple Dev Portfolio</title>
+    <link rel="shortcut icon" href="images/fakeDP.png" type="image/x-icon">
+    <script src="script.js"></script>
+    <title>Simple Portfolio</title>
 </head>
+
 <body>
     <section class= "container">
         <div class="half-width">
-            <img  src="images/fakeDP.png" alt="">
+            <img id= "fakeDP" src="images/fakeDP.png" alt="The Art of Living - Rene Francois Magritte">
         </div>
-        <div class = "half-width shadow-left">
-            <h1 style = "text-align: center;"> Ishmamur Rahman's <small> Portfolio</small></h1>
+        <div class="half-width shadow-left">
+            <h1 id="portfolio" class="rounded-border"> <small>Portfolio</small></h1> 
+            <h1 id ="typeWritingEffect">
+            </h1>
             <h2 class="border-bottom"> sample text</h2>
-            <p class="paragraph"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia laborum beatae veritatis vitae alias perspiciatis quod quo, voluptas voluptatum ducimus labore fugit aut adipisci amet harum deleniti! Commodi, suscipit repellat.</p>
+            <p class="paragraph"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia laborum beatae veritatis vitae alias perspiciatis quod quo, voluptas voluptatum ducimus labore fugit aut adipisci amet harum deleniti! Commodi, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ea animi. Culpa consequuntur recusandae voluptate delectus aspernatur dignissimos velit quisquam facilis fugit sint ducimus amet, excepturi accusantium aperiam. Aliquam, illo?</p>
+
             <div class="float-center">
                 <a class = "exp-card btn" href="https://www.linkedin.com/in/ishmamur-rahman-2220441aa/" target="_blank"> Get in Touch</a>        
             </div>
@@ -54,7 +60,10 @@
     </section>
 
     <footer>
-        © Ishmamur Rahman, 5<sup>th</sup> July,  2021
-    </footer>
+        © Ishmamur Rahman, 5<sup>th</sup> July,  2021 
+        <button id="floatBtn" onclick="gotoTop()"> 
+            <img src="images/baseline_arrow_upward_white_24dp.png" alt="">
+        </button>
+  </footer>
 </body>
 </html>

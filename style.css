@@ -37,6 +37,7 @@ h2{
     font-weight: 900;   
     padding: 10px 40px;
     transition: 0.5s;
+    margin-bottom: 50px;
 
 }
 .btn:hover{
@@ -70,4 +71,21 @@ h2{
 .float-center{
     display:flex; 
     justify-content: center;
+}
+#portfolio{
+    opacity: 0;
+    background: #3f3411;
+    color: #d4af37;
+    /* margin-left: 50px; */
+
+}
+#floatBtn{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    background: rgb(83, 82, 82);
+    padding: 10px;
+    color:white;
+    border-radius: 15%;
+    border: 3px coral;
 }
