@@ -16,6 +16,11 @@ h1{
 h2{
     font-size: 32px;
 }
+h5{
+    color: #436857;
+    font-size: 16px;
+    font-family: monospace;
+}
 .half-width{
     width: 40%;
     margin: 5%;
@@ -44,16 +49,17 @@ h2{
     background: #efefef;
     box-shadow: 3px 2px 10px black;
 }
-.exp-card{
-    box-shadow: -3px 2px 10px black;
-    /* width: 80%; */
-}
 .rounded-border{
     border-radius: 15px;
 }
 .paragraph{
     padding: 10px 10px;
     margin-bottom: 50px;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
 }
 .border-bottom{
     text-align: center;
@@ -61,6 +67,13 @@ h2{
     border-image: linear-gradient(90deg, #91e7a9 , #465cd6, #d64646);
     border-image-slice :1;
     
+}
+.exp-card{
+    background: #D9C6C3;
+}
+.shadow{
+    box-shadow: -3px 2px 10px black;
+    /* width: 80%; */
 }
 .shadow-left{
     box-shadow: -2px 2px 5px #707070;
@@ -74,10 +87,14 @@ h2{
 }
 #portfolio{
     opacity: 0;
-    background: #3f3411;
+    background-color: #3f3411;
     color: #d4af37;
     /* margin-left: 50px; */
 
+}
+#portfolio:hover{
+    background-color: #d4af37;
+    color:#3f3411
 }
 #floatBtn{
     position: fixed;
@@ -88,4 +105,9 @@ h2{
     color:white;
     border-radius: 15%;
     border: 3px coral;
+    transition:  .5s;
+}
+#floatBtn:hover{
+    padding: 15px;
+    cursor: pointer;
 }
